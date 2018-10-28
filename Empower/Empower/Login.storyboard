@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="07Z-Kf-aDl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="OSK-EN-U8M">
+            <objects>
+                <viewController storyboardIdentifier="signUpVC" id="07Z-Kf-aDl" customClass="SignUpViewController" customModule="Empower" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cYu-Zw-CIO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9sz-3l-ABl">
+                                <rect key="frame" x="0.0" y="120" width="375" height="467"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESOLVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWs-bV-joh">
+                                        <rect key="frame" x="123.5" y="0.0" width="128" height="39"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                        <color key="textColor" red="0.56470588239999997" green="0.0" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Gyb-n0-N95" userLabel="Textfields Stack View">
+                                        <rect key="frame" x="65" y="130.5" width="245" height="92"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an email" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-a0-ggn" customClass="YoshikoTextField" customModule="TextFieldEffects">
+                                                <rect key="frame" x="0.0" y="0.0" width="245" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="7LB-E7-NtX"/>
+                                                    <constraint firstAttribute="width" constant="245" id="wMW-oY-Fgs"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="activeBorderColor">
+                                                        <color key="value" red="0.56470588239999997" green="0.0" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create password" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="SYO-hU-u3j" customClass="YoshikoTextField" customModule="TextFieldEffects">
+                                                <rect key="frame" x="0.0" y="52" width="245" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Wbu-jx-9Bg"/>
+                                                    <constraint firstAttribute="width" constant="245" id="c7c-s3-yrx"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="activeBorderColor">
+                                                        <color key="value" red="0.56470588239999997" green="0.0" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPU-qK-Y1k">
+                                        <rect key="frame" x="177.5" y="314.5" width="20" height="21"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycn-DA-sNi">
+                                        <rect key="frame" x="127.5" y="427" width="120" height="40"/>
+                                        <color key="backgroundColor" red="0.56470588235294117" green="0.0" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="AKF-AT-TCG"/>
+                                            <constraint firstAttribute="height" constant="40" id="kzt-CN-flv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Own-qi-skP" firstAttribute="trailing" secondItem="9sz-3l-ABl" secondAttribute="trailing" id="4v3-sa-cjx"/>
+                            <constraint firstItem="Own-qi-skP" firstAttribute="bottom" secondItem="9sz-3l-ABl" secondAttribute="bottom" constant="80" id="GbC-SN-FgJ"/>
+                            <constraint firstItem="9sz-3l-ABl" firstAttribute="leading" secondItem="Own-qi-skP" secondAttribute="leading" id="fHN-GV-oKp"/>
+                            <constraint firstItem="9sz-3l-ABl" firstAttribute="top" secondItem="Own-qi-skP" secondAttribute="top" constant="100" id="v7y-GH-hwg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Own-qi-skP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EbT-MC-QHz"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="E3l-a0-ggn" id="TJC-Ad-lmS"/>
+                        <outlet property="errorLabel" destination="EPU-qK-Y1k" id="JoP-CN-LGN"/>
+                        <outlet property="passwordTextField" destination="SYO-hU-u3j" id="3oR-OI-cRl"/>
+                        <outlet property="signUpButton" destination="ycn-DA-sNi" id="8nW-Qm-Ev6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NIj-ee-cl8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="917" y="680"/>
+        </scene>
+    </scenes>
+</document>
