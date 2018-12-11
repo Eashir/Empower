@@ -1,11 +1,11 @@
-# Resolve
+# EMPOWER
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Eashir/Empower/master/Empower.png">
 </p>
 
 
-## HACKATTACK Hackathon
+## HackAttack Hackathon
 
 Based after the Five-Minute Journal, we chose to develop our app around the theme of Women Empowerment with famous quotes by Barbara Kruger etc
 
