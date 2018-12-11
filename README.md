@@ -1,4 +1,4 @@
-# EMPOWER
+# Empower
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Eashir/Empower/master/Empower.png">
