@@ -1,6 +1,9 @@
 # Resolve
 
-![alt text](Empower.png "Description goes here") 
+<p align="center">
+  <img Empower.png />
+</p>
+
 
 HACKATTACK - Queens College Hackathon Project
 
