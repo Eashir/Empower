@@ -1,11 +1,13 @@
 # Resolve
 
 <p align="center">
-  <img Empower.png />
+  <br><br>
+  <br><br>
+  <img src="https://raw.githubusercontent.com/Eashir/Empower/master/Empower.png">
 </p>
 
 
-HACKATTACK - Queens College Hackathon Project
+## HACKATTACK - QC Hackathon Project
 
 Based after the Five-Minute Journal, we chose to develop our app around the theme of Women Empowerment with famous quotes by Barbara Kruger etc.
 
