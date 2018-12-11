@@ -1,7 +1,7 @@
 # Resolve
 
-Queens College Hackathon Project
+HACKATTACK Queens College Hackathon Project
 
-We created a authentication system with Firebase and designed a simple, elegant UI 
+We created a authentication system with Firebase with a clean UI
 
 ![alt text](Empower.png "Description goes here") 
