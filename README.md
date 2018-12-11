@@ -5,7 +5,7 @@
 </p>
 
 
-## HACKATTACK 
+## HACKATTACK Hackathon
 
 Based after the Five-Minute Journal, we chose to develop our app around the theme of Women Empowerment with famous quotes by Barbara Kruger etc
 
