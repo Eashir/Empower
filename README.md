@@ -12,5 +12,7 @@ Based after the Five-Minute Journal, we chose to develop our app around the them
 We created a authentication system with Firebase using Swift, and a clean UI using Sketch + Storyboard during the 24-hour Queens College Hackathon
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Eashir/hackattack/master/hackattack.jpg">
+  <img src="https://github.com/Eashir/Empower/blob/master/hackattack.png">
 </p>
+
+
